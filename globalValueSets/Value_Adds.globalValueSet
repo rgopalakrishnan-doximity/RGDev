@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customValue>
+        <fullName>None</fullName>
+        <default>false</default>
+        <label>None</label>
+    </customValue>
+    <customValue>
+        <fullName>3 Content Segments</fullName>
+        <default>false</default>
+        <label>3 Content Segments</label>
+    </customValue>
+    <customValue>
+        <fullName>4 Units of Segmentation</fullName>
+        <default>false</default>
+        <label>4 Units of Segmentation</label>
+    </customValue>
+    <customValue>
+        <fullName>5% Incremental Guarantee</fullName>
+        <default>false</default>
+        <label>5% Incremental Guarantee</label>
+    </customValue>
+    <customValue>
+        <fullName>20% Incremental Guarantee</fullName>
+        <default>false</default>
+        <label>20% Incremental Guarantee</label>
+    </customValue>
+    <customValue>
+        <fullName>Waived Orchestration Fee</fullName>
+        <default>false</default>
+        <label>Waived Orchestration Fee</label>
+    </customValue>
+    <customValue>
+        <fullName>5% Engagement Boost</fullName>
+        <default>false</default>
+        <label>5% Engagement Boost</label>
+    </customValue>
+    <customValue>
+        <fullName>10% Engagement Boost</fullName>
+        <default>false</default>
+        <label>10% Engagement Boost</label>
+    </customValue>
+    <masterLabel>Value Adds</masterLabel>
+    <sorted>false</sorted>
+</GlobalValueSet>
