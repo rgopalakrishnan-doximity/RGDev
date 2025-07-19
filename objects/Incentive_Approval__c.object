@@ -1,0 +1,1168 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <comment>Action override created by Lightning App Builder during activation.</comment>
+        <content>Incentive_Approval_Record_Page1</content>
+        <formFactor>Small</formFactor>
+        <skipRecordTypeSelect>false</skipRecordTypeSelect>
+        <type>Flexipage</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <allowInChatterGroups>true</allowInChatterGroups>
+    <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
+    <deploymentStatus>Deployed</deploymentStatus>
+    <description>Used to track the Incentive / Value adds set for Client Agency</description>
+    <enableActivities>true</enableActivities>
+    <enableBulkApi>true</enableBulkApi>
+    <enableFeeds>true</enableFeeds>
+    <enableHistory>true</enableHistory>
+    <enableLicensing>false</enableLicensing>
+    <enableReports>true</enableReports>
+    <enableSearch>true</enableSearch>
+    <enableSharing>true</enableSharing>
+    <enableStreamingApi>true</enableStreamingApi>
+    <label>Incentive Approval</label>
+    <nameField>
+        <displayFormat>IA-{00000}</displayFormat>
+        <label>Incentive Approval Name</label>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>AutoNumber</type>
+    </nameField>
+    <pluralLabel>Incentive Approvals</pluralLabel>
+    <recordTypeTrackFeedHistory>false</recordTypeTrackFeedHistory>
+    <recordTypeTrackHistory>false</recordTypeTrackHistory>
+    <searchLayouts>
+        <excludedStandardButtons>New</excludedStandardButtons>
+        <excludedStandardButtons>OpenListInQuip</excludedStandardButtons>
+        <excludedStandardButtons>NewFromDocument</excludedStandardButtons>
+        <excludedStandardButtons>Accept</excludedStandardButtons>
+        <excludedStandardButtons>ChangeOwner</excludedStandardButtons>
+        <excludedStandardButtons>Import</excludedStandardButtons>
+        <excludedStandardButtons>MassChangeOwner</excludedStandardButtons>
+        <excludedStandardButtons>PrintableListView</excludedStandardButtons>
+        <excludedStandardButtons>MassAssignRecordLabel</excludedStandardButtons>
+        <listViewButtons>Request_Incentive</listViewButtons>
+        <searchResultsAdditionalFields>Client__c</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>Agency__c</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>Status__c</searchResultsAdditionalFields>
+        <searchResultsCustomButtons>Request_Incentive</searchResultsCustomButtons>
+    </searchLayouts>
+    <sharingModel>ReadWrite</sharingModel>
+    <visibility>Public</visibility>
+    <fieldSets>
+        <fullName>Locked_Fields</fullName>
+        <description>Locked Record type</description>
+        <displayedFields>
+            <field>Client__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>Agency__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>Tier_1__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>Tier_1_Begin_Period__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>Tier_1_End_Period__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>Tier_1_Discount__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>Tier_1_Custom_Discount__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>Tier_1_Value_Add__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <label>Locked Fields</label>
+    </fieldSets>
+    <fields>
+        <fullName>Agency__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <label>Agency</label>
+        <referenceTo>Account</referenceTo>
+        <relationshipLabel>Incentive Approvals (Agency)</relationshipLabel>
+        <relationshipName>Incentive_Approvals1</relationshipName>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Client__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <label>Client</label>
+        <referenceTo>Account</referenceTo>
+        <relationshipLabel>Incentive Approvals</relationshipLabel>
+        <relationshipName>Incentive_Approvals</relationshipName>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Status__c</fullName>
+        <label>Status</label>
+        <required>false</required>
+        <trackFeedHistory>true</trackFeedHistory>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Requested</fullName>
+                    <default>false</default>
+                    <label>Requested</label>
+                </value>
+                <value>
+                    <fullName>Pricing Review</fullName>
+                    <default>false</default>
+                    <label>Pricing Review</label>
+                </value>
+                <value>
+                    <fullName>Finance Review</fullName>
+                    <default>false</default>
+                    <label>Finance Review</label>
+                </value>
+                <value>
+                    <fullName>Deal Desk Review</fullName>
+                    <default>false</default>
+                    <label>Deal Desk Review</label>
+                </value>
+                <value>
+                    <fullName>Sales Ops Review</fullName>
+                    <default>false</default>
+                    <label>Sales Ops Review</label>
+                </value>
+                <value>
+                    <fullName>Approved</fullName>
+                    <default>false</default>
+                    <label>Approved</label>
+                </value>
+                <value>
+                    <fullName>Rejected</fullName>
+                    <default>false</default>
+                    <label>Rejected</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Tier_1__c</fullName>
+        <label>Tier 1</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetName>Tiers</valueSetName>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Tier_2__c</fullName>
+        <label>Tier 2</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetName>Tiers</valueSetName>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Tier_3__c</fullName>
+        <label>Tier 3</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetName>Tiers</valueSetName>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Details__c</fullName>
+        <label>Details</label>
+        <length>32768</length>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>LongTextArea</type>
+        <visibleLines>5</visibleLines>
+    </fields>
+    <fields>
+        <fullName>Approval_Notes__c</fullName>
+        <label>Approval Notes</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>TextArea</type>
+    </fields>
+    <fields>
+        <fullName>Tier_1_Discount__c</fullName>
+        <label>Tier 1 Discount</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetName>Discounts</valueSetName>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Tier_2_Discount__c</fullName>
+        <label>Tier 2 Discount</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetName>Discounts</valueSetName>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Tier_3_Discount__c</fullName>
+        <label>Tier 3 Discount</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetName>Discounts</valueSetName>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Tier_1_Value_Add__c</fullName>
+        <label>Tier 1 Value Add</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetName>Value_Adds</valueSetName>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Tier_2_Value_Add__c</fullName>
+        <label>Tier 2 Value Add</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetName>Value_Adds</valueSetName>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Tier_3_Value_Add__c</fullName>
+        <label>Tier 3 Value Add</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetName>Value_Adds</valueSetName>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Tier_1_End_Period__c</fullName>
+        <label>Tier 1 End Period</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>Tier_2_End_Period__c</fullName>
+        <label>Tier 2 End Period</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>Tier_3_End_Period__c</fullName>
+        <label>Tier 3 End Period</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>Tier_1_Begin_Period__c</fullName>
+        <label>Tier 1 Begin Period</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>Tier_2_Begin_Period__c</fullName>
+        <label>Tier 2 Begin Period</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>Tier_3_Begin_Period__c</fullName>
+        <label>Tier 3 Begin Period</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>Tier_1_Custom_Discount__c</fullName>
+        <externalId>false</externalId>
+        <label>Tier 1 Custom Discount</label>
+        <precision>12</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Tier_2_Custom_Discount__c</fullName>
+        <externalId>false</externalId>
+        <label>Tier 2 Custom Discount</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Tier_3_Custom_Discount__c</fullName>
+        <externalId>false</externalId>
+        <label>Tier 3 Custom Discount</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Incentive_Approval_End_Period__c</fullName>
+        <label>Incentive Approval End Period</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>Incentive_Approval_Begin_Period__c</fullName>
+        <label>Incentive Approval Begin Period</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>Partnership_Agreement_with_Agency_Signed__c</fullName>
+        <label>Partnership Agreement with Agency Signed</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Yes</fullName>
+                    <default>false</default>
+                    <label>Yes</label>
+                </value>
+                <value>
+                    <fullName>No</fullName>
+                    <default>false</default>
+                    <label>No</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <recordTypes>
+        <fullName>Locked</fullName>
+        <active>true</active>
+        <label>Locked</label>
+        <picklistValues>
+            <picklist>Partnership_Agreement_with_Agency_Signed__c</picklist>
+            <values>
+                <fullName>No</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Yes</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Status__c</picklist>
+            <values>
+                <fullName>Approved</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Deal Desk Review</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Finance Review</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Pricing Review</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Rejected</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Requested</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Sales Ops Review</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Tier_1_Discount__c</picklist>
+            <values>
+                <fullName>3%25</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>5%25</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>7%25</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Custom</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>None</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Tier_1_Value_Add__c</picklist>
+            <values>
+                <fullName>10%25 Engagement Boost</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>20%25 Incremental Guarantee</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>3 Content Segments</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>4 Units of Segmentation</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>5%25 Engagement Boost</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>5%25 Incremental Guarantee</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>None</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Waived Orchestration Fee</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Tier_1__c</picklist>
+            <values>
+                <fullName>None</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Upto %243M</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Upto %245M</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Upto %247%2E5M</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Tier_2_Discount__c</picklist>
+            <values>
+                <fullName>3%25</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>5%25</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>7%25</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Custom</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>None</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Tier_2_Value_Add__c</picklist>
+            <values>
+                <fullName>10%25 Engagement Boost</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>20%25 Incremental Guarantee</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>3 Content Segments</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>4 Units of Segmentation</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>5%25 Engagement Boost</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>5%25 Incremental Guarantee</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>None</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Waived Orchestration Fee</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Tier_2__c</picklist>
+            <values>
+                <fullName>None</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Upto %243M</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Upto %245M</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Upto %247%2E5M</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Tier_3_Discount__c</picklist>
+            <values>
+                <fullName>3%25</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>5%25</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>7%25</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Custom</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>None</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Tier_3_Value_Add__c</picklist>
+            <values>
+                <fullName>10%25 Engagement Boost</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>20%25 Incremental Guarantee</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>3 Content Segments</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>4 Units of Segmentation</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>5%25 Engagement Boost</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>5%25 Incremental Guarantee</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>None</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Waived Orchestration Fee</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Tier_3__c</picklist>
+            <values>
+                <fullName>None</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Upto %243M</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Upto %245M</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Upto %247%2E5M</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+    </recordTypes>
+    <recordTypes>
+        <fullName>Incentive_Request</fullName>
+        <active>true</active>
+        <label>Incentive Request</label>
+        <picklistValues>
+            <picklist>Partnership_Agreement_with_Agency_Signed__c</picklist>
+            <values>
+                <fullName>No</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Yes</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Status__c</picklist>
+            <values>
+                <fullName>Approved</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Deal Desk Review</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Finance Review</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Pricing Review</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Rejected</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Requested</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Sales Ops Review</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Tier_1_Discount__c</picklist>
+            <values>
+                <fullName>3%25</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>5%25</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>7%25</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Custom</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>None</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Tier_1_Value_Add__c</picklist>
+            <values>
+                <fullName>10%25 Engagement Boost</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>20%25 Incremental Guarantee</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>3 Content Segments</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>4 Units of Segmentation</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>5%25 Engagement Boost</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>5%25 Incremental Guarantee</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>None</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Waived Orchestration Fee</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Tier_1__c</picklist>
+            <values>
+                <fullName>None</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Upto %243M</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Upto %245M</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Upto %247%2E5M</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Tier_2_Discount__c</picklist>
+            <values>
+                <fullName>3%25</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>5%25</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>7%25</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Custom</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>None</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Tier_2_Value_Add__c</picklist>
+            <values>
+                <fullName>10%25 Engagement Boost</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>20%25 Incremental Guarantee</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>3 Content Segments</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>4 Units of Segmentation</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>5%25 Engagement Boost</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>5%25 Incremental Guarantee</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>None</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Waived Orchestration Fee</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Tier_2__c</picklist>
+            <values>
+                <fullName>None</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Upto %243M</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Upto %245M</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Upto %247%2E5M</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Tier_3_Discount__c</picklist>
+            <values>
+                <fullName>3%25</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>5%25</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>7%25</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Custom</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>None</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Tier_3_Value_Add__c</picklist>
+            <values>
+                <fullName>10%25 Engagement Boost</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>20%25 Incremental Guarantee</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>3 Content Segments</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>4 Units of Segmentation</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>5%25 Engagement Boost</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>5%25 Incremental Guarantee</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>None</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Waived Orchestration Fee</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Tier_3__c</picklist>
+            <values>
+                <fullName>None</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Upto %243M</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Upto %245M</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Upto %247%2E5M</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+    </recordTypes>
+    <validationRules>
+        <fullName>Tier_1_Custom</fullName>
+        <active>true</active>
+        <errorConditionFormula>ISPICKVAL(Tier_1_Discount__c, &apos;Custom&apos;) &amp;&amp; ISNULL( Tier_1_Custom_Discount__c)</errorConditionFormula>
+        <errorMessage>Please enter Custom Tier 1 Discount</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>Tier_2_Custom</fullName>
+        <active>true</active>
+        <errorConditionFormula>ISPICKVAL(Tier_2_Discount__c, &apos;Custom&apos;) &amp;&amp; ISNULL( Tier_2_Custom_Discount__c)</errorConditionFormula>
+        <errorMessage>Please enter Custom Tier 2 Discount</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>Tier_3_Custom</fullName>
+        <active>true</active>
+        <errorConditionFormula>ISPICKVAL(Tier_3_Discount__c, &apos;Custom&apos;) &amp;&amp; ISNULL( Tier_3_Custom_Discount__c)</errorConditionFormula>
+        <errorMessage>Please enter Custom Tier 3 Discount</errorMessage>
+    </validationRules>
+    <webLinks>
+        <fullName>Request_Incentive</fullName>
+        <availability>online</availability>
+        <displayType>massActionButton</displayType>
+        <encodingKey>UTF-8</encodingKey>
+        <height>600</height>
+        <linkType>url</linkType>
+        <masterLabel>Request Incentive</masterLabel>
+        <openType>sidebar</openType>
+        <protected>false</protected>
+        <requireRowSelection>true</requireRowSelection>
+        <url>/flow/Incentive_Approval_Request?retURL=/lightning/o/Incentive_Approval__c/list?filterName=All</url>
+    </webLinks>
+</CustomObject>
